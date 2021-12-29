@@ -1,3 +1,5 @@
+## Contenido del curso
+
 # Python
 Análisis y visualización de datos
 ## TEMARIO
@@ -16,6 +18,16 @@ Análisis y visualización de datos
 * Anaconda: es un ambiente de trabajo para la ciencia de datos que permite hacer funcionar aplicaciones y administrar fácilmente distintos paquetes --> https://www.anaconda.com/products/individual
 * Visual Studio Code: editor de código fuente --> https://code.visualstudio.com/download
 * GIT: software de control de versiones --> https://git-scm.com/download/win
+
+## EJEMPLOS
+
+|Tema|Ejercicios|
+|-----:|-----:|
+|GIT| <ul><li> [Resumen y ejercicio con GIT y GITHUB](https://github.com/jfreile/Python/blob/main/Resumen_GIT.pdf) </li> 
+|Python| <ul><li>[Instalacion de Extensiones](https://github.com/jfreile/Python/blob/main/Notebooks/Instalacion_Python.ipynb)</li><li>[Comandos basicos](https://github.com/jfreile/Python/blob/main/Notebooks/Ejemplo_comandos_Python.ipynb) </li><li>[Ejemplo con parametros de entrada](https://github.com/jfreile/Python/blob/main/Notebooks/Ejemplo_con_param_entrada.ipynb)</li><li>[Resumen](https://github.com/jfreile/Python/blob/main/Notebooks/Resumen_Python.ipynb)</li>
+|Pandas|<ul><li>[Conceptos Basicos](https://github.com/jfreile/Python/blob/main/Notebooks/Introduccion_pandas.ipynb)</li><li>[Ejemplo con BD (archivo csv)](https://github.com/jfreile/Python/blob/main/Notebooks/Ejemplo_BD.ipynb) </li><li>[Ejercicios varios](https://github.com/jfreile/Python/blob/main/Notebooks/ejercicio_1_pandas.ipynb)</li><li>[Resumen](https://github.com/jfreile/Python/blob/main/Notebooks/Resumen_Pandas.ipynb)</li>|
+|Estadistica| <ul><li> [Introducción a la estadistica](https://github.com/jfreile/Python/blob/main/Notebooks/Resumen_Estadistica.ipynb) </li> |
+|Titanic|<ul><li> [Ejercicio con BD Titanic](https://github.com/jfreile/Python/blob/main/Notebooks/Ejemplo_BD_TITANIC.ipynb) </li> |
 
 ## INSTALACION Y CONFIGURACION DE PYTHON EN VISUAL STUDIO CODE
 1. Instalar Visual Studio Code
