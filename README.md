@@ -64,11 +64,30 @@ Análisis y visualización de datos
 	- pip list
 
 ## GIT
-Ir a la carpeta del proyecto y se crea carpeta raiz:
-- cd ruta
-- mkdir prueba
-- cd prueba
-- git init (Para iniciar el git)
+	Ir a la carpeta del proyecto y se crea carpeta raiz:
+	se debe ir a la carpta del proyecto y se crea carpeta raiz
+    cd ruta
+    mkdir mis_tareas (para crear una nueva carpeta)
+    cd mis_tareas (para ingresar a dicha carpeta)
+    git init (Para iniciar el git)
+    * Autentificarnos
+        * git config --global user.name "Jose Freile"
+        * git config --global user.email "jose.freile@jep.gov.co" (debe coincidir con el correo en GITHUB)
+        * git config --list (para listar el correo y usuario) 
+        
+    * Cree una llave ssh:
+        Si es Windows: ssh-keygen -t rsa -b 4096 -C "jose.freile@jep.gov.co"
+        > Enter a file in which to save the key (/c/Users/you/.ssh/id_algorithm):[Press enter]
+        > Enter passphrase (empty for no passphrase): [Type a passphrase]        [Press enter]  
+        > Enter same passphrase again:                [Type passphrase again]    [Press enter]    
+        
+        dicho archivo se guarda por defecto en la ruta --> ~/.ssh/id_rsa
+        se debe agregar la llave SSH al agente ssh
+            eval "(ssh-agent -s)"
+            > Agend pid XXX
+            ssh-add ~/.ssh/id_rsa
+        se debe abrir el archivo: id_rsa.pub
+ 
 	
 ### Comandos mas utilizados:
 * ls -la           (para ver los archivos)
@@ -114,6 +133,9 @@ Ir a la carpeta del proyecto y se crea carpeta raiz:
 * git checkout jose_freile (para pasarme al branch)
 * git add Ejemplo.txt para subir archivo a la rama
 
+* BAJAR CAMBIOS A LA RAMA DIF A MASTER
+	* git checkout jose_freile  (ubicarse en la rama)
+    * git merge master          (nombre de la rama a fusionarse y bajar los cambios)
 
 * edicion del branch
 	- mkdir mis_tareas (para crear una nueva carpeta)
@@ -129,6 +151,17 @@ Ir a la carpeta del proyecto y se crea carpeta raiz:
 * Cuenta en GitHub
 * Tener un repositorio en GitHub
 
+### GITHUB
+ - Luego de crear la cuenta se debe generar una llave tipo SSH
+ - Ingresar al perfil/setting/SSH and GPG key
+ - title: ingresa titulo 
+ - key: pegar clave previamente generada en GIT (id_rsa.pub)
+ - add ssh key
+ 
+ - Generar llave de encriptacion
+    ssh-keygen (para crear la carpeta .ssh)
+    ssh-keygen -t rsa -b 4096 -C "jose.freile@jep.gov.co"    
+	
 ### CREACION REPOSITORIO REMOTO (GITHUB)
 	En github, buscar opcion crear un nuevo repositorio (de forma publica, la privada tiene costo) 
 
