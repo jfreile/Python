@@ -129,18 +129,25 @@ Ir a la carpeta del proyecto y se crea carpeta raiz:
 * Cuenta en GitHub
 * Tener un repositorio en GitHub
 
-### CREACION REPOSITORIO REMOTO
-	En github, buscar opcion crear un nuevo repositorio (de forma publica, la privada tiene costo) se puede obteber la url haciendo clic en el botón "Clone or download".
-	Luego de la creacion buscar la linea "…or push an existing repository from the command line"
-	- git remote add origin git@github.com:jfreile/Repositorio_remoto.git
+### CREACION REPOSITORIO REMOTO (GITHUB)
+	En github, buscar opcion crear un nuevo repositorio (de forma publica, la privada tiene costo) 
+
+### CLONACION REPOSITORIO DESDE GITHUB
+	-- Pagina GITHUB
+	- En GITHUB, se puede obteber la url haciendo clic en el botón "Clone or download".
+	- ejemplo: https://github.com/jfreile/Python.git
 	- Abrir la consola de comandos en Visual studio code
 	- abrir consola "bash" y pegar la anterior linea
-
-### CLONACION REPOSITORIO
+	
+	-- Maquina local
 	Cree un directorio (en el pc) donde se guardarán los repositorios:
 	Abra el directorio en Visual Studio Code (menú Archivo > Abrir carpeta ...):
-	Abrir una terminal (Terminal\New Terminal)
-	git init (configura el git y crea una carpeta en la ruta del directorio llamado .git)
+	En Code abra la ventana de comandos con Ctrl+Mayús+p
+	digite el comando --> git: clone 
+	pegue la URL del repositorio: https://github.com/jfreile/Python.git
+	escriba la ruta de destion en el pc
+	
+### COMANDOS EN VISUAL STUDIO CODE
 	Luego de editar / crear / eliminar archivos se debe seleccionar la opcion "source control" donde se listan los archivos y sus cambios
 	en la sección CAMBIOS, mostrará todos los archivos en los que ha realizado cambios.
 		a la derecha de uno de los archivos verás 4 íconos. 
