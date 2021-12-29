@@ -136,8 +136,6 @@ Ir a la carpeta del proyecto y se crea carpeta raiz:
 	-- Pagina GITHUB
 	- En GITHUB, se puede obteber la url haciendo clic en el botón "Clone or download".
 	- ejemplo: https://github.com/jfreile/Python.git
-	- Abrir la consola de comandos en Visual studio code
-	- abrir consola "bash" y pegar la anterior linea
 	
 	-- Maquina local
 	Cree un directorio (en el pc) donde se guardarán los repositorios:
