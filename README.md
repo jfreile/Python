@@ -130,11 +130,11 @@ Ir a la carpeta del proyecto y se crea carpeta raiz:
 * Tener un repositorio en GitHub
 
 ### CREACION REPOSITORIO REMOTO
-En github, buscar opcion crear un nuevo repositorio (de forma publica, la privada tiene costo) se puede obteber la url haciendo clic en el botón "Clone or download".
-Luego de la creacion buscar la linea "…or push an existing repository from the command line"
-* git remote add origin git@github.com:jfreile/Repositorio_remoto.git
-Abrir la consola de comandos en Visual studio code
-* abrir consola "bash" y pegar la anterior linea
+	En github, buscar opcion crear un nuevo repositorio (de forma publica, la privada tiene costo) se puede obteber la url haciendo clic en el botón "Clone or download".
+	Luego de la creacion buscar la linea "…or push an existing repository from the command line"
+	- git remote add origin git@github.com:jfreile/Repositorio_remoto.git
+	- Abrir la consola de comandos en Visual studio code
+	- abrir consola "bash" y pegar la anterior linea
 
 ### CLONACION REPOSITORIO
 	Cree un directorio (en el pc) donde se guardarán los repositorios:
