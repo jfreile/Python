@@ -1,5 +1,3 @@
-## Contenido del curso
-
 # Python
 Análisis y visualización de datos
 ## TEMARIO
